@@ -16,8 +16,8 @@
 
 ## Performance at Submission:
 <ol>
-<li>Digit Recognizer</li>
+<li>Digit Recognizer (top 4%)</li>
 <img src="https://github.com/sherrisherry/Kaggle_Starters/blob/master/images/DigitRec.JPG" />
-<li>House Prices</li>
+<li>House Prices (top 30%)</li>
 <img src="https://github.com/sherrisherry/Kaggle_Starters/blob/master/images/HousePrices.JPG" />
 </ol>
