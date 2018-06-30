@@ -1,6 +1,6 @@
 # read in the training and test datasets without converting 'NA's to missing values.
-train<-read.csv('House_Prices\train.csv', na.strings = "", strip.white = TRUE)
-test<-read.csv('House_Prices\test.csv', na.strings = "", strip.white = TRUE)
+train<-read.csv('train.csv', na.strings = "", strip.white = TRUE)
+test<-read.csv('test.csv', na.strings = "", strip.white = TRUE)
 # exploring the training set
 summary(train)
 sum(is.na(train))

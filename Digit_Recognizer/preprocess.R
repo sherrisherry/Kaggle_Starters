@@ -1,6 +1,6 @@
-df1<-read.csv('Digit_Recognizer/train_git.csv')
+df1<-read.csv('train_git.csv')
 sum(is.na(df1))
-df2<-read.csv('Digit_Recognizer/train_kaggle.csv')
+df2<-read.csv('train_kaggle.csv')
 df<-rbind(df1,df2)
 df0<-unique(df)
 write.csv(df0,file="train.csv",row.names = FALSE)
