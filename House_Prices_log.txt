@@ -1,0 +1,60 @@
+Columns:
+	ExterQual, ExterCond, BsmtQual, BsmtCond, HeatingQC, KitchenQual, FireplaceQu, GarageQual, GarageCond, PoolQC
+Scheme:
+NoApp    Po    Fa    TA    Gd    Ex 
+    0     1     2     3     4     5 
+
+Columns:
+	BsmtFinType1, BsmtFinType2
+Scheme:
+NoApp   Unf   LwQ   Rec   BLQ   ALQ   GLQ 
+    0     1     2     3     4     5     6 
+
+Columns:
+	BsmtExposure
+Scheme:
+NoApp    No    Mn    Av    Gd 
+    0     1     2     3     4 
+
+Columns:
+	GarageFinish
+Scheme:
+NoApp   Unf   RFn   Fin 
+    0     1     2     3 
+
+Columns:
+	LandSlope
+Scheme:
+    Gtl Mod Sev 
+  0   1   2   3 
+
+Columns:
+	PavedDrive
+Scheme:
+  N P Y 
+0 1 2 3 
+
+Columns:
+	Utilities
+Scheme:
+          ELO NoSeWa NoSewr AllPub 
+     0      1      2      3      4 
+
+Columns:
+	Functional
+Scheme:
+      Sev Maj1  Mod Min1  Typ 
+   0    1    2    3    4    5 
+
+Columns:
+	Street
+Scheme:
+Grvl Pave 
+   0    1 
+
+Columns:
+	CentralAir
+Scheme:
+N Y 
+0 1 
+
